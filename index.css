@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: rgb(6, 40, 99);
+    position: relative;
+}
+
+.images img {
+    position: fixed;
+    width: 250px;
+   
+}
+.images .top-left{
+    top: -35px;
+    left: -85px;
+}
+.images .top-right{
+    right: -85px;
+    top: -35px;
+   
+}
+.images .bottom-left{
+    bottom: -35px;
+    left:-85px
+}
+.images .bottom-right{
+    bottom: -35px;
+    right: -85px;
+}
+.piggy-logos{
+    text-align: center ;
+    padding: 70px 0;
+    
+}
+
+.form{
+    min-width: 150px;
+    max-width: 450px;
+    margin: 0 auto;
+    
+    background-color: white;
+
+    
+    
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 0; 
+}
+form .heading {
+
+    
+}
+form h1 {
+    color: #083e9e;
+    text-align: center;
+    font-weight: 700;
+    font-family: U8,sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    border: 0 solid #e2e8f0;
+}
+form p {
+    font-size: .875rem;
+    color: #4a5568;
+    text-align: center;
+    font-family: Karla,sans-serif;
+    border: 0 solid #e2e8f0;
+    transition-duration: 250ms;
+    margin-bottom: 25px;
+}
+form .form-group {
+    margin-bottom: 30px;
+}
+form .form-group label {
+    font-size: .75rem;
+    color: #4a5568;
+    line-height: 2;
+    font-weight: 700;
+    font-family: U8,sans-serif;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    cursor: default;
+    display: block;
+    font-weight: 40%;
+   
+}
+form .form-group input {
+    padding-left: .5rem;
+    padding-right: .2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #1a202c;
+    border-radius: .25rem;
+    background-color: #edf2f7;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    width: 100%;
+}
+.hear-about-us {
+    font-size: .75rem;
+    color: #4a5568;
+    line-height: 2;
+    font-weight: 700;
+    font-family: U8,sans-serif;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    cursor: default;
+    display: block;
+    font-weight: 40%;
+}
+.hear-about-us select {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #1a202c;
+    border-radius: .25rem;
+    background-color: #edf2f7;
+    border: 0 solid #e2e8f0;
+    box-sizing: inherit;
+    width: 90%;
+    font-family: U8,sans-serif;
+}
+form .Submit button{
+    background-color: rgb(8, 62, 158);
+    font-size: .875rem;
+    flex-direction: row;
+    width: 100%;
+    
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    margin-top: 0;
+    font-family: U8,sans-serif;
+    border-radius: 10px 10px 10px 0;
+    
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 1rem;
+    border: 0 solid #e2e8f0;
+}
+p a{
+    color: white;
+    text-decoration: none;
+}
